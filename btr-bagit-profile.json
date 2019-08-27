@@ -43,17 +43,12 @@
             "required": false,
             "recommended": true,
             "description": "Can be the same as source_organization recommended when not the same as source"
-        },
-        "Data-Export-Info": {"required": false},
-        "Data-Export-Agent": {"required": false},
-        "Data-Export-Agent-Version": {"required": false},
-        "Data-Export-Format": {"required": false},
-        "Data-Export-Format-Version": {"required": false},
-        "Relationship-Info": {"required": false}
+        }
     },
     "Manifests-Required": [],
-    "Manifests-Supported": [
+    "Manifests-Allowed": [
         "md5",
+        "sha1",
         "sha256",
         "sha512"
     ],
@@ -62,11 +57,13 @@
     "Accept-Serialization": [
         "application/zip",
         "application/x-tar",
-        "application/gzip"
+        "application/gzip",
+        "application/x-7z-compressed"
     ],
     "Tag-Manifests-Required": [],
-    "Tag-Manifests-Supported": [
+    "Tag-Manifests-Allowed": [
         "md5",
+        "sha1",
         "sha256",
         "sha512"
     ],
