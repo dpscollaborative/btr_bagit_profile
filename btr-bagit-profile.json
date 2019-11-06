@@ -7,11 +7,7 @@
         "BagIt-Profile-Version": "1.2.0",
         "Contact-Name": "Hope Fully Apersonsname",
         "Contact-Phone": "(we probably don't want this)",
-        "Contact-Email": "fake-email@example.com",
-        "BtR-Extensions": {
-            "Recommended-Tags": ["Organization-Address", "Contact-Email", "Bag-Group-Identifier", "Bag-Count", "Internal-Sender-Identifier", "Internal-Sender-Description", "Bagit-Profile-Identifier"],
-            "Searchable-Tags": ["Source-Organization", "Bag-Group-Identifier", "Internal-Sender-Identifier", "Internal-Sender-Description"]
-        }
+        "Contact-Email": "fake-email@example.com"
     },
     "Bag-Info": {
         "Source-Organization": {"required": true, "capabilities": ["searchable"]},
