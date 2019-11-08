@@ -17,7 +17,6 @@
         "Source-Organization": {"required": true, "capabilities": ["searchable"]},
         "Bagging-Date": {"required": true},
         "Payload-Oxum": {"required": true},
-        "Bagit-Profile-Identifier": {"required": true},
         "Organization-Address": {"required": false, "recommended": true},
         "Contact-Name": {"required": false},
         "Contact-Phone": {"required": false},
