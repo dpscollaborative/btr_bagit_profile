@@ -56,7 +56,9 @@
     "Accept-Serialization": [
         "application/zip",
         "application/tar",
+        "application/x-tar",
         "application/gzip",
+        "application/x-gzip",
         "application/x-7z-compressed"
     ],
     "Tag-Manifests-Required": [],
