@@ -3,14 +3,14 @@
         "Source-Organization": "Beyond the Repository Bagit Profile Group",
         "External-Description": "Bagit Profile for Consistent Deposit to Distributed Digital Preservation Services",
         "Version": "0.1",
-        "BagIt-Profile-Identifier": "http://????/???-v0.1.json", 
-        "BagIt-Profile-Version": "1.2.0",
+        "BagIt-Profile-Identifier": "http://????/???-v0.1.json",
+        "BagIt-Profile-Version": "1.3.0",
         "Contact-Name": "Hope Fully Apersonsname",
         "Contact-Phone": "(we probably don't want this)",
         "Contact-Email": "fake-email@example.com"
     },
     "Bag-Info": {
-        "Source-Organization": {"required": true, "capabilities": ["searchable"]},
+        "Source-Organization": {"required": true},
         "Bagging-Date": {"required": true},
         "Payload-Oxum": {"required": true},
         "Organization-Address": {"required": false, "recommended": true},
@@ -22,8 +22,7 @@
         "Bag-Group-Identifier": {
             "required": false,
             "recommended": true,
-            "description": "*Recommended in the case of multiple related bags, otherwise optional",
-            "capabilities": ["searchable"]
+            "description": "*Recommended in the case of multiple related bags, otherwise optional"
         },
         "Bag-Count": {
             "required": false,
@@ -31,8 +30,8 @@
             "description": "*Recommended in the case of multiple related bags, otherwise optional"
         },
         "Bag-Size": {"required": false},
-        "Internal-Sender-Identifier": {"required": false, "recommended": true, "capabilities": ["searchable"]},
-        "Internal-Sender-Description": {"required": false, "recommended": true, "capabilities": ["searchable"]},
+        "Internal-Sender-Identifier": {"required": false, "recommended": true},
+        "Internal-Sender-Description": {"required": false, "recommended": true},
         "Payload-Identifier": {"required": false},
         "Bag-Producing-Organization": {
             "required": false,
@@ -51,8 +50,10 @@
     "Serialization": "optional",
     "Accept-Serialization": [
         "application/zip",
+        "application/tar",
         "application/x-tar",
         "application/gzip",
+        "application/x-gzip",
         "application/x-7z-compressed"
     ],
     "Tag-Manifests-Required": [],
@@ -69,4 +70,3 @@
         "1.0"
     ]
 }
-
