@@ -8,7 +8,7 @@ Laura Alagna, Northwestern University</br>
 Bill Branan, LYRASIS</br>
 Carolyn Caizzi, Northwestern University</br>
 Andrew Diamond, Academic Preservation Trust</br>
-Tim Tilauro, Johns Hopkins University</br>
+Tim DiLauro, Johns Hopkins University</br>
 Tim Donohue, LYRASIS</br>
 Thib Guicherd-Callin, The LOCKSS Project</br>
 John Kunze, California Digital Library</br>
@@ -25,7 +25,3 @@ Andrew Woods, LYRASIS</br>
 
 ## Current Status
 Version 1.0 released
-
-
-
-
