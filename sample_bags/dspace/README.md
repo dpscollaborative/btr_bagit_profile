@@ -1,4 +1,5 @@
-The bags in this directory were created with DSpace 6.3 using the Replication Task Suite. Each bag represents an object
+The bags in this directory were created with DSpace 6.3 using the Replication Task Suite 6.2 and 
+[bagit-support](https://github.com/duraspace/bagit-support) to be compliant with BTR 1.0.0. Each bag represents an object
 which can be found in a DSpace repository, e.g. Community, and are named according to how they are found within DSpace.
 
 Each bag stores metadata about the DSpace object (e.g. roles, authorizations) in the form of xml and bitstreams for
